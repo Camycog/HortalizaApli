@@ -1,5 +1,4 @@
 /** Importaciones de librerias a usar */
-
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
