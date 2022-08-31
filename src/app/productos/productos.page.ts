@@ -6,17 +6,17 @@ export interface PeriodicElement {
   name: string;
   position: number;
   weight: number;
-  symbol: string;
+  cost: number;
 }
 
 const ELEMENT_DATA: PeriodicElement[] = [
-  {position: 1, name: 'Platanos', weight: 1, symbol: 'H'},
-  {position: 2, name: 'Brocoli', weight: 1, symbol: 'He'},
-  {position: 3, name: 'Cabolla', weight: 1, symbol: 'Li'},
-  {position: 4, name: 'Kiwi', weight: 1, symbol: 'Be'},
-  {position: 5, name: 'Naranja', weight: 1, symbol: 'B'},
-  {position: 6, name: 'Sandia', weight: 1, symbol: 'C'},
-  {position: 7, name: 'Tomate', weight: 1 symbol: 'N'},
+  {position: 1, name: 'Platanos', weight: 1, cost: 500},
+  {position: 2, name: 'Brocoli', weight: 1, cost: 500},
+  {position: 3, name: 'Cabolla', weight: 1, cost: 500},
+  {position: 4, name: 'Kiwi', weight: 1, cost: 500},
+  {position: 5, name: 'Naranja', weight: 1, cost: 500},
+  {position: 6, name: 'Sandia', weight: 1, cost: 1000},
+  {position: 7, name: 'Tomate', weight: 1 cost: 500},
 
 ];
 
