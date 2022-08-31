@@ -15,8 +15,8 @@ const ELEMENT_DATA: PeriodicElement[] = [
   {position: 3, name: 'Cabolla', weight: 1, cost: 500},
   {position: 4, name: 'Kiwi', weight: 1, cost: 500},
   {position: 5, name: 'Naranja', weight: 1, cost: 500},
-  {position: 6, name: 'Sandia', weight: 1, cost: 1000},
-  {position: 7, name: 'Tomate', weight: 1 cost: 500},
+  {position: 6, name: 'Sandia', weight: 1, cost: 500},
+  {position: 7, name: 'Tomate', weight: 1, cost: 500},
 
 ];
 
