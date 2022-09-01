@@ -6,6 +6,7 @@ import { Router, NavigationExtras } from '@angular/router';
   styleUrls: ['./registro.page.scss'],
 })
 export class RegistroPage implements OnInit {
+
  newuser={
     newusuario:"",
     newpassword:""
