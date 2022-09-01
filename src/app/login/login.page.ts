@@ -29,5 +29,8 @@ export class LoginPage implements OnInit {
     };
     this.router.navigate(['/home'],navigationExtras); // navegamos hacia el Home y enviamos información adicional
   }
+  registro(){
+    this.router.navigate(['/registro']);
+  }
 
 }

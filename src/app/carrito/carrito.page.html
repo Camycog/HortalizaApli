@@ -27,18 +27,22 @@
           Permite mostrar los datos desde el script a la visual
           verificar el data en el home.page.ts
         -->
-        <ion-label >¿Que deseas comprar?</ion-label>
+        <ion-label >Carrito:</ion-label>
       </ion-item>
 
       <div class="centrado">
 
-      <ion-button (click)="Carrito()">ZANAHORIA</ion-button>
+      <ion-button (click)="Carrito()">ALCACHOFAS</ion-button><ion-label >$1000</ion-label>
       <br>
-      <ion-button (click)="lista()">LECHUGA</ion-button>  
+      <ion-button (click)="lista()">PAPAS</ion-button><ion-label >$2000</ion-label>  
       <br>
-      <ion-button (click)="ubicacion()">PLATANO</ion-button>
+      <ion-button (click)="ubicacion()">LIMONES</ion-button><ion-label >$500</ion-label>
       <br>
-      <ion-button (click)="cierra()">PAPAS</ion-button>
+      <ion-button (click)="cierra()">TOMATES</ion-button><ion-label >$1000</ion-label>
+      <br>
+      <div class="centrado">
+      <ion-label >TOTAL: $4500</ion-label>
+    </div>
 
     </div>
 

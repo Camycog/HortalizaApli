@@ -29,4 +29,13 @@ export class HomePage {
       }else{this.router.navigate(["/login"])} // Si no tiene extra la navegacion actual navegar al login
     });
   }
+  cierra(){
+    this.router.navigate(["/login"]);
+  }
+  lista(){
+    this.router.navigate(["/productos"]);
+  }
+  carrito(){
+    this.router.navigate(["/carrito"]);
+  }
 }

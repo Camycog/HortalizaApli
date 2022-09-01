@@ -29,36 +29,26 @@
         -->
         <ion-label >¡Hola {{data.usuario}}!<br>¿Qué deseas hacer?</ion-label>
       </ion-item>
+
+      <div class="centrado">
+
+      <ion-button (click)="carrito()">Ver carrito</ion-button>
+      <br>
+      <ion-button (click)="lista()">Productos</ion-button>  
+      <br>
+      <ion-button (click)="ubicacion()">Estado pedido</ion-button>
+      <br>
+      <ion-button (click)="cierra()">Cerrar sesión</ion-button>
+
+    </div>
+
     </ion-card-content>
+
     <!-- Contenido de un Card -->
   </ion-card>
   <!-- Termina un Card -->
-  <ion-button expand="full" (click)="Carrito()">Ver carrito</ion-button>
-  <ion-button expand="full" (click)="lista()">Productos</ion-button>  
-  <ion-button expand="full" (click)="ubicacion()">Estado del Pedido</ion-button>
+
+
 </ion-content>
 <!-- Termina el Content -->
-<ion-tabs>
-  <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="schedule">
-      <ion-icon name="calendar"></ion-icon>
-      <ion-label>Schedule</ion-label>
-      <ion-badge>6</ion-badge>
-    </ion-tab-button>
 
-    <ion-tab-button tab="speakers">
-      <ion-icon name="person-circle"></ion-icon>
-      <ion-label>Speakers</ion-label>
-    </ion-tab-button>
-
-    <ion-tab-button tab="map">
-      <ion-icon name="map"></ion-icon>
-      <ion-label>Map</ion-label>
-    </ion-tab-button>
-
-    <ion-tab-button tab="about">
-      <ion-icon name="information-circle"></ion-icon>
-      <ion-label>About</ion-label>
-    </ion-tab-button>
-  </ion-tab-bar>
-</ion-tabs>
