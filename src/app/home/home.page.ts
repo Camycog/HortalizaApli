@@ -38,4 +38,5 @@ export class HomePage {
   carrito(){
     this.router.navigate(["/carrito"]);
   }
+  
 }
